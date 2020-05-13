@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+.droplet {
+    background-color: #0288d1;
+    height: 150px;
+    width: 150px;
+    border-radius: 0% 50% 50% 50%;
+    transform: rotate(45deg);
+    box-shadow: -10px -25px 5px -10px #03a9f4 inset; /*ajustando os dois primeiros valores é possível alterar a posição da sombra*/
+}
