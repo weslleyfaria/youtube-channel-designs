@@ -8,10 +8,20 @@ body {
 }
 
 .droplet {
+    position: absolute;
     background-color: #0288d1;
     height: 150px;
     width: 150px;
     border-radius: 0% 50% 50% 50%;
     transform: rotate(45deg);
     box-shadow: -10px -25px 5px -10px #03a9f4 inset; /*ajustando os dois primeiros valores é possível alterar a posição da sombra*/
+}
+
+.credits {
+    position: relative;
+    padding: 1em;
+    background-color: white;
+    top: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 3em;
 }
